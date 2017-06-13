@@ -1,0 +1,23 @@
+.MainLayout-zone {
+	background-color: #efefef;
+}
+
+.MainLayout-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: pink;	
+  z-index: 5;
+}
+
+.MainLayout-content {
+	width: 100%;
+	max-width: 800px;
+	min-height: calc(100vh - 50px);
+	margin-left: 50%;
+	margin-top: 50px;
+	transform: translate(-50%, 0%);
+	background-color: white;
+}

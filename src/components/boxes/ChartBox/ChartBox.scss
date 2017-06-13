@@ -1,0 +1,21 @@
+.ChartBoxContainer-zone {
+	width: 100%;
+	background-color: white;
+	color: black;
+}
+
+.ChartBoxContainer-functionZone {
+	position:relative;
+	display: inline-block;
+	margin-left: 50%;
+	transform: translate(-50%, 0);
+	padding: 10px 0px;
+
+	input {
+    margin: 0 10px;
+	}
+
+	button {
+    vertical-align: middle;
+	}
+}
