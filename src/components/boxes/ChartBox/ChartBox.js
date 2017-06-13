@@ -34,10 +34,10 @@ class ChartBox extends React.Component {
     };
 
     return (
-      <div className={'ChartBoxContainer-zone'}>
-        <div className={'ChartBoxContainer-functionZone'}>
+      <div className={'ChartBox-zone'}>
+        <div className={'ChartBox-functionZone'}>
           <input onChange={this.handleChange.bind(this)}/>
-          <button onClick={this._onClick.bind(this)}/>
+          <button onClick={this._onClick.bind(this)}>{'click me'}</button>
         </div>
         <div>
           <ReactHighcharts config = {config}/>

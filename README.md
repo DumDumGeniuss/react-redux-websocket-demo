@@ -1,3 +1,17 @@
+# Start
+### 1. install packages
+```yarn install```
+
+### 2. make the socket up
+```node demo-websocker.js```
+
+### 3. start react develpment mode
+```yarn run dev```
+
+### 4. see it on localhost:8080
+
+# Reference
+
 [Webpack2簡易設定教學](https://github.com/gokulkrishh/how-to-setup-webpack-2)
 
 [Socket簡單操作教學](http://muki.tw/tech/websocket-simple-introduce-and-use/) => 
